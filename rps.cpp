@@ -66,15 +66,15 @@ int main()
 
             break;
         case 3:
-            if (compChoices[randomNumber] == "scissors ")
+            if (compChoices[randomNumber] == "scissors")
             {
-                std::cout << "Its a tie, Computer also chose" << compChoices[randomNumber] << "\n";
+                std::cout << "Its a tie, Computer also chose " << compChoices[randomNumber] << "\n";
             }
-            if (compChoices[randomNumber] == "paper ")
+            if (compChoices[randomNumber] == "paper")
             {
-                std::cout << "You win, Computer chose" << compChoices[randomNumber] << "\n";
+                std::cout << "You win, Computer chose " << compChoices[randomNumber] << "\n";
             }
-            if (compChoices[randomNumber] == "rock ")
+            if (compChoices[randomNumber] == "rock")
             {
 
                 std::cout << "You lose, Computer chose " << compChoices[randomNumber] << "\n";
